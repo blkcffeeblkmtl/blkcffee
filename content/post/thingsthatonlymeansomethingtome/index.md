@@ -28,3 +28,4 @@ Number 1 is a little different. Its a picture of a place. There are all kinds of
   </a>
 </div>
 
+Number 4 is interesting to me because of a technical detail. This photo of the Egyptian Building on the MCV campus was shot on a Rollei 35S wide open. You get the swirling distortion around the edges that a Petzval lens would give you. Its not as apparent as with an old Petzval but its there. I'm still trying to find a variable ND filter thats small enough for the Rollei 35S so I can shot wide open more often. Or maybe its time to use things like Ilfords Ortho 80 at box speed. 
