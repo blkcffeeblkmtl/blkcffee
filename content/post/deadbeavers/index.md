@@ -13,8 +13,11 @@ Talked with a friend today about the Tigers Jaw show at the Camel in RVA over 10
 Went down to the river today and found a new way down to the old trail since Texas Beach is still "shut down" because of the bridge construction. I'm not sure if I prefer winter or summer days on the river. Obviously theres no swimming in the winter but its a different vibe looking out over the water when the leaves have dropped and the air is brutal. Continued after the youtube vid. 
 
 <div class="post-gallery">
+  <a href="./cover.jpeg" target="_blank">
+    <img src="./cover.jpeg" alt="cover">
+  </a>
   <a href="./photo1.jpeg" target="_blank">
-    <img src="./photo1.jpeg" alt="photo 2">
+    <img src="./photo1.jpeg" alt="photo 1">
   </a>
   <a href="./photo2.jpeg" target="_blank">
     <img src="./photo2.jpeg" alt="photo 2">
