@@ -1,3 +1,39 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "/"
+languageCode = "en-us"
+title = "blkcffee"
+theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[minify]
+disableJSON = true
+
+[pagination]
+pagerSize = 10
+
+[params]
+defaultTheme = "dark"
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = true
+ShowBreadCrumbs = true
+showSummaryCoverInList = true
+disableJSONLD = true
+
+[params.cover]
+hiddenInSingle = true
+hiddenInList = false
+
+[params.profileMode]
+enabled = false
+title = "blkcffee"
+subtitle = "life updates"
+imageUrl = ""
+imageTitle = ""
+imageWidth = 120
+imageHeight = 120

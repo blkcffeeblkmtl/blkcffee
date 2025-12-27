@@ -40,8 +40,8 @@
 /* Gallery images — PRESERVE ASPECT RATIO */
 .post-content .post-gallery img {
   width: 100%;
-  height: auto;          /* ← critical fix */
-  object-fit: contain;   /* ← prevent cropping */
+  height: auto;          /* critical fix */
+  object-fit: contain;   /* prevent cropping */
   display: block;
   border-radius: 6px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -59,11 +59,42 @@
 
 
 /* ==========================================================
-   MOBILE TWEAK (optional, but recommended)
+   HOME ARCHIVE CTA (PaperMod-safe)
    ========================================================== */
 
-@media (max-width: 600px) {
-  .post-content .post-gallery {
-    grid-template-columns: 1fr;
-  }
+/* Container — spacing is controlled HERE */
+.home-archive-button,
+.home-cta {
+  display: block;
+  clear: both;
+
+  /* Top | Horizontal | Bottom */
+  margin: 2rem auto 1.25rem;
+
+  max-width: var(--main-width);
+  padding: 0 1rem;
+}
+
+/* Button link */
+.archive-link,
+.home-cta-link {
+  display: block;
+  width: 100%;
+  padding: 1.25rem;
+
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+
+  background: var(--tertiary);
+  color: var(--primary);
+
+  border-radius: 14px;
+  border: 1px solid var(--secondary);
+}
+
+/* Hover */
+.archive-link:hover,
+.home-cta-link:hover {
+  background: var(--secondary);
 }
