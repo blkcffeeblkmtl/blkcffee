@@ -1,0 +1,69 @@
+/* ==========================================================
+   HOMEPAGE POST THUMBNAILS (PaperMod list view)
+   ========================================================== */
+
+/* Container */
+.post-entry .entry-cover {
+  max-height: 220px;
+  overflow: hidden;
+}
+
+/* Homepage cover image */
+.post-entry .entry-cover img {
+  width: 100%;
+  height: 220px;        /* Fixed height is OK here */
+  object-fit: cover;   /* Crop for visual consistency */
+  display: block;
+  border-radius: 8px;
+}
+
+
+/* ==========================================================
+   POST IMAGE GALLERY (inside posts)
+   ========================================================== */
+
+.post-content .post-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+/* Clickable wrapper */
+.post-content .post-gallery a {
+  display: block;
+  background: var(--entry);
+  padding: 6px;
+  border-radius: 8px;
+}
+
+/* Gallery images — PRESERVE ASPECT RATIO */
+.post-content .post-gallery img {
+  width: 100%;
+  height: auto;          /* ← critical fix */
+  object-fit: contain;   /* ← prevent cropping */
+  display: block;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+/* ==========================================================
+   HOVER EFFECT
+   ========================================================== */
+
+.post-content .post-gallery img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ==========================================================
+   MOBILE TWEAK (optional, but recommended)
+   ========================================================== */
+
+@media (max-width: 600px) {
+  .post-content .post-gallery {
+    grid-template-columns: 1fr;
+  }
+}
