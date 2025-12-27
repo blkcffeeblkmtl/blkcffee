@@ -1,7 +1,7 @@
 ---
 title: "Things that only mean something to me"
 date: 2025-12-26
-draft: true
+draft: false
 
 cover:
   image: "photo1.jpeg"
